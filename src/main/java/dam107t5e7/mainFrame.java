@@ -19,6 +19,7 @@ public class mainFrame extends javax.swing.JFrame {
      */
     public mainFrame() {
         initComponents();
+        
         tiempo = new Timer(100, new java.awt.event.ActionListener(){
                 public void actionPerformed(java.awt.event.ActionEvent e) {
                 relojito.Incrementar();
